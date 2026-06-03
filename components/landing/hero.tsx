@@ -17,7 +17,7 @@ export function Hero() {
       </div>
 
       {/* Content overlay - positioned at bottom of mascot area */}
-      <div className="relative z-10 mt-[420px] flex flex-col items-center text-center px-4 sm:mt-[480px]">
+      <div className="relative z-10 mt-[520px] flex flex-col items-center text-center px-4 sm:mt-[600px]">
         {/* Subtitle */}
         <p className="mb-3 text-lg text-white sm:text-xl">
           The Next Generation Open-Source AI
