@@ -1,34 +1,43 @@
 "use client"
 
-import { Truck, Github } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export function Navbar() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
-      <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]">
+      <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
+        {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-            <Truck className="h-5 w-5 text-primary-foreground" />
+          <div className="flex h-8 w-8 items-center justify-center">
+            <svg viewBox="0 0 32 32" className="h-8 w-8">
+              <circle cx="16" cy="16" r="14" fill="#f5a623" />
+              <circle cx="12" cy="14" r="3" fill="#0a0a0a" />
+              <circle cx="20" cy="14" r="3" fill="#0a0a0a" />
+              <circle cx="12" cy="14" r="2" fill="#3b82f6" />
+              <circle cx="20" cy="14" r="2" fill="#3b82f6" />
+              <rect x="10" y="6" width="4" height="4" rx="1" fill="#d4890f" />
+              <circle cx="12" cy="5" r="2" fill="#fbbf24" />
+            </svg>
           </div>
-          <span className="text-lg font-semibold text-foreground">TruckConfigurator</span>
+          <span className="text-lg font-semibold text-white">TruckConfigurator</span>
         </Link>
 
+        {/* Right side */}
         <div className="flex items-center gap-6">
           <Link
             href="https://github.com"
-            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            className="text-sm text-[#a3a3a3] transition-colors hover:text-white"
           >
             Git
           </Link>
           <Link
             href="https://discord.com"
-            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            className="text-sm text-[#a3a3a3] transition-colors hover:text-white"
           >
             Discord
           </Link>
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
+          <Button className="rounded-full bg-[#f5a623] px-5 text-sm font-medium text-black hover:bg-[#d4890f]">
             Get Started
           </Button>
         </div>

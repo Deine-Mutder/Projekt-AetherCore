@@ -2,39 +2,41 @@ import { MessageCircle, Github, BookOpen } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const links = [
-  { icon: MessageCircle, label: "Discord", href: "https://discord.com" },
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: BookOpen, label: "Docs", href: "#" },
+  { icon: MessageCircle, label: "Discord" },
+  { icon: Github, label: "GitHub" },
+  { icon: BookOpen, label: "Docs" },
 ]
 
 export function CommunityCTA() {
   return (
-    <section className="px-4 py-24">
+    <section className="bg-[#0a0a0a] px-4 py-24">
       <div className="mx-auto max-w-4xl">
-        <div className="overflow-hidden rounded-2xl border border-border/50 bg-card/50 p-8 text-center backdrop-blur-sm sm:p-12">
-          <p className="mb-4 text-sm font-medium uppercase tracking-wider text-primary">
+        <div className="overflow-hidden rounded-2xl border border-[#2a2a2a] bg-[#111111] p-10 text-center sm:p-14">
+          {/* Label */}
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#f5a623]">
             Join the Community
           </p>
-          <h2 className="mb-4 text-2xl font-bold text-foreground sm:text-3xl">
+          
+          {/* Heading */}
+          <h2 className="mb-4 text-2xl font-bold text-white sm:text-3xl">
             Be part of something bigger.
           </h2>
-          <p className="mx-auto mb-8 max-w-md text-muted-foreground">
-            Connect with ETS2 players, share configs, and shape the future of
-            TruckConfigurator.
+          
+          {/* Description */}
+          <p className="mx-auto mb-10 max-w-sm text-[#a3a3a3]">
+            Connect with ETS2 players, share configs, and shape the future of TruckConfigurator.
           </p>
 
+          {/* Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4">
             {links.map((link) => (
               <Button
                 key={link.label}
                 variant="outline"
-                className="border-border bg-secondary/50 text-foreground hover:bg-secondary"
-                asChild
+                className="rounded-full border-[#333] bg-[#1a1a1a] px-6 py-5 text-sm font-medium text-white hover:bg-[#2a2a2a]"
               >
-                <a href={link.href} target="_blank" rel="noopener noreferrer">
-                  <link.icon className="mr-2 h-4 w-4" />
-                  {link.label}
-                </a>
+                <link.icon className="mr-2 h-4 w-4" />
+                {link.label}
               </Button>
             ))}
           </div>
