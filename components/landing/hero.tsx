@@ -25,7 +25,7 @@ export function Hero() {
 
         {/* Description - gray text */}
         <p className="mb-7 max-w-[min(92vw,28rem)] text-center text-sm text-[#a3a3a3] drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] sm:mb-8 sm:text-base">
-          Build any Truck you want. :)
+          Build any Truck you want.
         </p>
 
         {/* CTA Buttons */}
