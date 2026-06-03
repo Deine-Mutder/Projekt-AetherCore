@@ -26,7 +26,7 @@ const footerLinks = {
 export function Footer() {
   return (
     <footer className="border-t border-[#1a1a1a] bg-[#0a0a0a] px-4 py-12">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-full px-4 lg:px-8 2xl:px-12" style={{ maxWidth: "1400px" }}>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-6">
           {/* Logo and tagline */}
           <div className="lg:col-span-2">

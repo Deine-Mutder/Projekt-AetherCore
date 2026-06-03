@@ -10,7 +10,7 @@ const links = [
 export function CommunityCTA() {
   return (
     <section className="bg-[#0a0a0a] px-4 py-24">
-      <div className="mx-auto max-w-4xl">
+      <div className="mx-auto max-w-full px-4 lg:px-8 2xl:px-12" style={{ maxWidth: "1400px" }}>
         <div className="overflow-hidden rounded-2xl border border-[#2a2a2a] bg-[#111111] p-10 text-center sm:p-14">
           {/* Label */}
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#f5cf23]">

@@ -13,7 +13,7 @@ const features = [
 export function Features() {
   return (
     <section className="relative bg-[#0a0a0a] py-24 px-4">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-full px-4 lg:px-8 2xl:px-12" style={{ maxWidth: "1400px" }}>
         {/* Section label */}
         <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#f5cf23]">
           Built for Modders

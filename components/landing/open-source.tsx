@@ -15,7 +15,7 @@ const ringParticles = Array.from({ length: 20 }, (_, i) => {
 export function OpenSource() {
   return (
     <section className="relative bg-[#0a0a0a] py-24 px-4">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-full px-4 lg:px-8 2xl:px-12" style={{ maxWidth: "1400px" }}>
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Content - Left side */}
           <div>
