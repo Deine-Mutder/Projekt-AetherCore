@@ -33,13 +33,17 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <div className="flex h-7 w-7 items-center justify-center">
                 <svg viewBox="0 0 28 28" className="h-7 w-7">
-                  <circle cx="14" cy="14" r="12" fill="#f5a623" />
-                  <circle cx="11" cy="12" r="2.5" fill="#0a0a0a" />
-                  <circle cx="17" cy="12" r="2.5" fill="#0a0a0a" />
-                  <circle cx="11" cy="12" r="1.5" fill="#3b82f6" />
-                  <circle cx="17" cy="12" r="1.5" fill="#3b82f6" />
-                  <rect x="12" y="4" width="4" height="4" rx="1" fill="#d4890f" />
-                  <circle cx="14" cy="3" r="2" fill="#fbbf24" />
+              <circle cx="16" cy="16" r="12" fill="#f5cf23" />
+              <circle cx="12" cy="14" r="5" fill="#0a0a0a" />
+              <circle cx="20" cy="14" r="5" fill="#0a0a0a" />
+              <circle cx="19" cy="14" r="5" fill="#0a0a0a" />
+              <circle cx="18" cy="14" r="5" fill="#0a0a0a" />
+              <circle cx="17" cy="14" r="5" fill="#0a0a0a" />
+              <circle cx="16" cy="14" r="5" fill="#0a0a0a" />
+              <circle cx="15" cy="14" r="5" fill="#0a0a0a" />
+              <circle cx="14" cy="14" r="5" fill="#0a0a0a" />
+              <circle cx="12" cy="14" r="1.9" fill="#3b82f6" />
+              <circle cx="20" cy="14" r="1.9" fill="#3b82f6" />
                 </svg>
               </div>
               <span className="text-base font-semibold text-white">TruckConfigurator</span>
@@ -79,13 +83,15 @@ export function Footer() {
           <p className="text-center text-sm text-[#666]">
             © 2025 TruckConfigurator. All rights reserved.
           </p>
-          
-          {/* Orange sparkle decoration - bottom right */}
+          <p className="mt-2 text-center text-sm text-[#f5cf23] drop-shadow-[0_0_18px_rgba(245,207,35,0.85)]">
+            Made by : <span className="font-semibold text-white">The real Plumz</span>
+          </p>
+          {/* Sparkle */}
           <div className="absolute bottom-0 right-8 hidden lg:block">
             <svg viewBox="0 0 40 40" className="h-10 w-10">
               <path
                 d="M20 0 L22 18 L40 20 L22 22 L20 40 L18 22 L0 20 L18 18 Z"
-                fill="#f5a623"
+                fill="rgb(10, 10, 10)"
               />
             </svg>
           </div>

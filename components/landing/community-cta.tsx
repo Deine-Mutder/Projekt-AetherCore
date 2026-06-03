@@ -13,7 +13,7 @@ export function CommunityCTA() {
       <div className="mx-auto max-w-4xl">
         <div className="overflow-hidden rounded-2xl border border-[#2a2a2a] bg-[#111111] p-10 text-center sm:p-14">
           {/* Label */}
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#f5a623]">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#f5cf23]">
             Join the Community
           </p>
           

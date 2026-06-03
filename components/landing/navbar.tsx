@@ -11,13 +11,18 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center">
             <svg viewBox="0 0 32 32" className="h-8 w-8">
-              <circle cx="16" cy="16" r="14" fill="#f5a623" />
-              <circle cx="12" cy="14" r="3" fill="#0a0a0a" />
-              <circle cx="20" cy="14" r="3" fill="#0a0a0a" />
+              <circle cx="16" cy="16" r="14" fill="#f5cf23" />
+              <circle cx="12" cy="14" r="6" fill="#0a0a0a" />
+              <circle cx="20" cy="14" r="6" fill="#0a0a0a" />
+              <circle cx="19" cy="14" r="6" fill="#0a0a0a" />
+              <circle cx="18" cy="14" r="6" fill="#0a0a0a" />
+              <circle cx="17" cy="14" r="6" fill="#0a0a0a" />
+              <circle cx="16" cy="14" r="6" fill="#0a0a0a" />
+              <circle cx="15" cy="14" r="6" fill="#0a0a0a" />
+              <circle cx="14" cy="14" r="6" fill="#0a0a0a" />
               <circle cx="12" cy="14" r="2" fill="#3b82f6" />
               <circle cx="20" cy="14" r="2" fill="#3b82f6" />
-              <rect x="10" y="6" width="4" height="4" rx="1" fill="#d4890f" />
-              <circle cx="12" cy="5" r="2" fill="#fbbf24" />
+              <circle cx="12" cy="5" r="2" fill="#f5cf23" />
             </svg>
           </div>
           <span className="text-lg font-semibold text-white">TruckConfigurator</span>
@@ -37,7 +42,7 @@ export function Navbar() {
           >
             Discord
           </Link>
-          <Button className="rounded-full bg-[#f5a623] px-5 text-sm font-medium text-black hover:bg-[#d4890f]">
+          <Button className="rounded-full bg-[#f5cf23] px-5 text-sm font-medium text-black hover:bg-[#2f81f7]/90">
             Get Started
           </Button>
         </div>
